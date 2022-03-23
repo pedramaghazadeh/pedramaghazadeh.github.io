@@ -348,17 +348,17 @@ section .title::after{
     top: 0;
     background: dodgerblue;
 }
-.skills .skills-content .right .html::before{
-    width: 90%;
+.skills .skills-content .right .R::before{
+    width: 85%;
 }
-.skills .skills-content .right .css::before{
+.skills .skills-content .right .SQL::before{
     width: 60%;
 }
 .skills .skills-content .right .Cpp::before{
-    width: 50%;
+    width: 85%;
 }
 .skills .skills-content .right .Python::before{
-    width: 40%;
+    width: 90%;
 }
 
 /* contact styling */
@@ -366,7 +366,7 @@ section .title::after{
     content: "Get in touch ";
 }
 .contact .contact-content .column{
-    width: calc(50% - 30px);
+    margin: auto;
 }
 .contact .contact-content{
     margin-bottom: 50px;
@@ -376,12 +376,12 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 20px;
 }
-.contact .contact-content .left p{
+.contact .contact-content .middle p{
     text-align: justify;
 }
 
-.contact .contact-content .left .icons{
-    margin: 10px 0;
+.contact .contact-content .middle .icons{
+    align-content: center;
 }
 .contact .contact-content .row{
     display: flex;
@@ -390,79 +390,19 @@ section .title::after{
 }
 .contact .contact-content .row .info{
     margin-left: 30px;
-    text-align: justify;
+    text-align: left;
 }
 .contact .contact-content .row i{
-    font-size: 25px;
+    font-size: 30px;
     color: dodgerblue;
+    padding-right: 10px;
 }
 .contact .contact-content .info .head{
     font-weight: 600;
-
 }
 .contact .contact-content .info .sub-title{
     color:black;
 }
-
-.contact .right form .fields{
-    display: flex;
-}
-
-.contact .right form .field,
-.contact .right form .fields .field{
-    height: 45px;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-.contact .right form  .textarea{
-    height: 130px ;
-}
-
-
-.contact .right form .fields .name{
-    margin-right: 10px;
-}
-.contact .right form .fields .email{
-    margin-left: 10px;
-}
-
-.contact .right form .field input,
-.contact .right form .textarea textarea{
-    height: 100%;
-    width: 100%;
-    border: 1px solid lightgrey;
-    border-radius: 6px;
-    outline: none;
-    padding: 0 15px;
-    font-size: 17px;
-    font-family: 'Poppins', sans-serif;
-}
-.contact .right form .textarea textarea{
-    padding-top: 15px;
-    resize: none;
-}
-.contact .right form .button{
-    height: 40px;
-    width: 150px;
-}
-.contact .right form .button button{
-    background: dodgerblue;
-    width: 100%;
-    height: 100%;
-    border: 2px solid dodgerblue;
-    font-size: 18px;
-    font-weight: 500;
-    color: white;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.contact .right form .button button:hover{
-    color: dodgerblue;
-    background: none;
-}
-
 
 /* footer styling  */
 footer{
@@ -484,6 +424,7 @@ footer span a:hover{
 
 /* responsive media query start */
 @media (max-width: 1300px){
+    
     .home .max-width{
         margin-left: 0px;
     }
@@ -497,7 +438,10 @@ footer span a:hover{
 }
 
 @media (max-width: 1080px){
-    
+    .home{
+        background-size: contain;
+        
+    }
     .menu-btn{
         display: block;
         z-index: 999;
@@ -525,7 +469,7 @@ footer span a:hover{
     .navbar .menu li a{
         display: inline-block;
         margin: 20px 0 ;
-        font-size: 40px;
+        font-size: xx-large;
     }
     .home .home-content .text-2{
         font-size: 70px;
@@ -555,9 +499,16 @@ footer span a:hover{
     
 }
 
-@media (max-width: 600px){
+@media (max-width: 500px){
+    .home {
+        display: flex;
+        background-size: cover;
+        height: 100vh;
+        color: white;
+    }
     .home .home-content .text-2{
         font-size: 50px;
+        
     }
     .home .home-content .text-3{
         font-size: 27px;
