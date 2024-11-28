@@ -1,7 +1,7 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
-baseurl: /pedramaghazadeh.github.io
+baseurl: ""
 
 collections:
   projects:
