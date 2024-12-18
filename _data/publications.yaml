@@ -3,13 +3,14 @@ papers:
   - title: "SwapTransformer: Highway overtaking tactical planner model via imitation learning on OSHA dataset"
     authors: "Alireza Shamsoshoara, Safin B Salih, <b>Pedram Aghazadeh</b>"
     venue: "IEEE Access"
-    paper_pdf: "/assets/publications/2024_supernotes/paper.pdf"
+    paper_pdf: "/assets/publications/SwapTransformer.pdf"
     code: "https://github.com/VWIECCResearch/Swaptransformer"
     selected: y
 
   - title: "OSHA dataset"
     authors: "Alireza Shamsoshoara, Safin B Salih, <b>Pedram Aghazadeh</b>"
     venue: "IEEE DataPort"
-    paper_pdf: "/assets/publications/2024_feedwizard/paper.pdf"
+    paper_pdf: "/assets/publications/OSHA.pdf"
     code: "https://ieee-dataport.org/documents/osha-dataset-overtaking-simulated-highways"
     selected: y
+    thumbnail: "/assets/publications/OSHA.png"
