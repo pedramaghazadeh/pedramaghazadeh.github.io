@@ -4,6 +4,7 @@ papers:
     authors: "Alireza Shamsoshoara, Safin B Salih, <b>Pedram Aghazadeh</b>"
     venue: "IEEE Access"
     paper_pdf: "/assets/publications/SwapTransformer.pdf"
+    thumbnail: "/assets/publications/SwapTransformer.png"
     code: "https://github.com/VWIECCResearch/Swaptransformer"
     selected: y
 
