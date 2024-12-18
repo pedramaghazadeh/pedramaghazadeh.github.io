@@ -4,7 +4,7 @@ papers:
     authors: "Alireza Shamsoshoara, Safin B Salih, <b>Pedram Aghazadeh</b>"
     venue: "IEEE Access"
     paper_pdf: "/assets/publications/SwapTransformer.pdf"
-    paper-img: "/assets/publications/SwapTransformer.png"
+    paper_img: "/assets/publications/SwapTransformer.png"
     code: "https://github.com/VWIECCResearch/Swaptransformer"
     selected: y
 
@@ -14,4 +14,4 @@ papers:
     paper_pdf: "/assets/publications/OSHA.pdf"
     code: "https://ieee-dataport.org/documents/osha-dataset-overtaking-simulated-highways"
     selected: y
-    paper-img: "/assets/publications/OSHA.png"
+    paper_img: "/assets/publications/OSHA.png"
