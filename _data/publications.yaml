@@ -1,4 +1,10 @@
 papers:
+  - title: ""
+    authors: "Soheil Zibakhsh Shabgahi, <b>Pedram Aghazadeh</b>, Azalia Mirhoseini, Farinaz Koushanfar"
+    venue: "Under review"
+    paper_pdf: "/assets/publications/fortifai_paper.pdf"
+    image: "/assets/publications/fortifai.pdf"
+    selected: y
 
   - title: "SwapTransformer: Highway overtaking tactical planner model via imitation learning on OSHA dataset"
     authors: "Alireza Shamsoshoara, Safin B Salih, <b>Pedram Aghazadeh</b>"
