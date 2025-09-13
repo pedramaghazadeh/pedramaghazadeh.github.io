@@ -1,5 +1,5 @@
 papers:
-  - title: ""
+  - title: "ForTIFAI: Fending Off Recursive Training Induced Failure for AI Models"
     authors: "Soheil Zibakhsh Shabgahi, <b>Pedram Aghazadeh</b>, Azalia Mirhoseini, Farinaz Koushanfar"
     venue: "Under review"
     paper_pdf: "/assets/publications/fortifai_paper.pdf"
