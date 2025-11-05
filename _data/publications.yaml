@@ -1,13 +1,14 @@
 papers:
-  - title: "ForTIFAI: Fending Off Recursive Training Induced Failure for AI Models"
-    authors: "Soheil Zibakhsh Shabgahi, <b>Pedram Aghazadeh</b>, Azalia Mirhoseini, Farinaz Koushanfar"
+  - title: "ForTIFAI: Fending Off Recursive Training Induced Failure for AI Model Collapse"
+    # Adding cross to show equal contribution
+    authors: "Soheil Zibakhsh Shabgahi\*, <b>Pedram Aghazadeh</b> \* , Azalia Mirhoseini, Farinaz Koushanfar"
     venue: "Under review"
     paper_pdf: "/assets/publications/fortifai_paper.pdf"
     image: "/assets/publications/fortifai.jpg"
     selected: y
 
   - title: "SwapTransformer: Highway overtaking tactical planner model via imitation learning on OSHA dataset"
-    authors: "Alireza Shamsoshoara, Safin B Salih, <b>Pedram Aghazadeh</b>"
+    authors: "Alireza Shamsoshoara\*, Safin B Salih\*, <b>Pedram Aghazadeh</b> \*"
     venue: "IEEE Access"
     paper_pdf: "/assets/publications/SwapTransformer.pdf"
     image: "/assets/publications/SwapTransformer.png"
@@ -15,7 +16,7 @@ papers:
     selected: y
 
   - title: "OSHA dataset"
-    authors: "Alireza Shamsoshoara, Safin B Salih, <b>Pedram Aghazadeh</b>"
+    authors: "Alireza Shamsoshoara\*, Safin B Salih\*, <b>Pedram Aghazadeh</b> \*"
     venue: "IEEE DataPort"
     paper_pdf: "/assets/publications/OSHA.pdf"
     code: "https://ieee-dataport.org/documents/osha-dataset-overtaking-simulated-highways"
