@@ -1,4 +1,12 @@
 papers:
+  - title: "Beyond Perplexity: A Lightweight Benchmark for Knowledge Retention in Supervised Fine-Tuning"
+    # Adding cross to show equal contribution
+    authors: "Soheil Zibakhsh Shabgahi&dagger;, <b>Pedram Aghazadeh</b> &dagger; , Farinaz Koushanfar"
+    venue: "Under review"
+    paper_pdf: "/assets/publications/kr_test_paper.pdf"
+    image: "/assets/publications/kr_test_paper.jpg"
+    selected: y
+  
   - title: "ForTIFAI: Fending Off Recursive Training Induced Failure for AI Model Collapse"
     # Adding cross to show equal contribution
     authors: "Soheil Zibakhsh Shabgahi&dagger;, <b>Pedram Aghazadeh</b> &dagger; , Azalia Mirhoseini, Farinaz Koushanfar"
