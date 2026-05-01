@@ -1,4 +1,11 @@
 papers:
+  - title: "LLM Ghostbusters: Surgical Hallucination Suppression via Adaptive Unlearning"
+    # Adding cross to show equal contribution
+    authors: "Joseph Spracklen;, <b>Pedram Aghazadeh</b> &dagger; , Farinaz Koushanfar, Murtuza Jadliwala"
+    venue: "Under review"
+    paper_pdf: "/assets/publications/llm_ghostbusters.pdf"
+    image: "/assets/publications/llm_ghostbusters.png"
+    selected: y
   - title: "Beyond Perplexity: A Lightweight Benchmark for Knowledge Retention in Supervised Fine-Tuning"
     # Adding cross to show equal contribution
     authors: "Soheil Zibakhsh Shabgahi&dagger;, <b>Pedram Aghazadeh</b> &dagger; , Farinaz Koushanfar"
